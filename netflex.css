@@ -1,0 +1,330 @@
+body{
+    background-color: rgba(0, 0, 0, 0.639);
+}
+.tittle-name{
+   color: black;
+   font-family: sans-serif;
+   font-weight: bolder;
+}
+.bg-image img{
+    width: 102%;
+    height: 730px;
+    margin: -10px -90px 0px -10px;
+background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    /* filter: blur(2.8px); */
+    filter: brightness(0.5);
+}
+.header-part .logo-image img{
+    width: 150px;
+    height: 150px;
+   margin-left: 70px;
+   margin-top: -40px;
+}
+.drop-button select{
+    width:100px;
+    height: 35px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 3px;
+}
+.header-part{
+    /* display: flex; */
+    position: absolute;
+    top: 20px;
+    
+}
+.header-part .sub-header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-part .sub-header .drop-button{
+    
+margin-left: 700px;
+margin-top: 7px;
+}
+.header-part .sub-header .sign-button a button{
+    margin-left: 35px;
+    margin-top: 7px;
+    background-color: red;
+    width: 85px;
+    color: white;
+    height: 35px;
+    border:0px ;
+    border-radius: 2px;
+    font-family: sans-serif;
+} 
+.header-part .header-contents{
+    color: white;
+    margin: 100px 0px 0px 200px;
+}
+
+.header-part .header-contents .text-1{
+    color: aliceblue;
+    font-size:50px;
+    line-height: 50px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.header-part .header-contents .text-2{
+    color: aliceblue;
+    font-size:50px;
+    line-height: 50px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.header-part .header-contents .text-3{
+    color: aliceblue;
+    font-size:30px;
+    line-height: 55px;
+    font-family: sans-serif;
+    text-align: center;
+} 
+.header-part .header-contents .text-4{
+    color: aliceblue;
+    font-size:20px;
+    line-height: 55px;
+    font-family: sans-serif;
+    text-align: center;
+}  
+.header-part .start-field{
+    display: flex;
+    margin: 0px 0px 0px 330px;
+    
+}
+.header-part .start-field input{
+    width: 450px;
+    height: 50px;
+}
+.header-part .start-field .second-field button{
+    background-color: red;
+    color: white;
+    border: 0px;
+    width: 200px;
+    height: 57px;
+    margin-left: -5px;
+    font-size: 25px;
+    
+}
+.header-part .start-field .third-field img{
+    width: 20px;
+    height: 20px;
+    margin-left: -30px;
+    margin-top: 18px;
+}
+ .second-part,.third-part{
+    width: 102%;
+    height: 500px;
+    background-color: black;
+    color: white;
+    margin-left: -10px;
+    margin-right: -90px;
+    display: flex;
+    /* justify-content: space-between; */
+ } 
+ .second-part .text-part .text-1{
+    font-size:50px;
+    line-height: 55px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 145px 0px 0px 80px;
+ }
+ .second-part .text-part .text-2{
+    font-size:25px;
+    line-height: 35px;
+    font-family: sans-serif;
+    margin: 20px 0px 0px 80px;
+ }
+ .main-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    margin-left:-10px ;
+    margin-right: -10px;
+   
+ }
+ .main-container .par1{
+    color: white;
+    font-size: 40px;
+    margin-left: 150px;
+    margin-top: 170px;
+    letter-spacing: 2px;
+
+ }
+ .main-container .par2{
+    color: white;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    
+ }
+ .container2{
+    background-color: black;
+    
+    height: 200%;
+    margin-top: 5px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+ }
+ .par2{
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+ }
+ .mainbox{
+    background-color: black;
+    display: flex;
+    margin-left: 150px;
+    margin-top: -150px;
+
+ }
+ .dow{
+    margin-left: 50px;
+    margin-top: 10px;
+ }
+ .back{
+    display: flex;
+    background-color: black;
+    width: 500px;
+ }
+ .par3{
+    color: white;
+    margin-top: -350px;
+    margin-left: 700px;
+    font-size: 40px;
+    letter-spacing: 2px;
+ }
+ .par4{
+    color: white;
+    margin-top: 10px;
+    margin-left: 700px;
+    font-size: 25px;
+    letter-spacing: 2px;
+ }
+ .container3{
+    display: flex;
+    background-color: black;
+    margin-top: 200px;
+    margin-left: -10px;
+    margin-right: -10px;
+    justify-content: space-between;
+ }
+ .par5{
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 50px;
+
+    
+ }
+ .par5 .par{
+    color: white;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 30px;
+    
+ }
+ .container4{
+    display: flex;
+    background-color:black ;
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+
+ }
+ .par7{
+    color: white;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-top: 90px;
+    margin-left: 100px;
+ }
+ .par8{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-left: 100px;
+ }
+ .raviram {
+   background-color: black;
+    display: flex; 
+    flex-direction: column;  
+    align-items: center; 
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+ }
+ 
+ .raviram h1 {
+   color: white;
+    font-size: 40px; 
+ }
+ 
+ .ram {
+   background-color: gray;
+   color: white;
+   width: 50%;
+   margin: 5px;
+   height: 80px;
+   align-items: center; 
+   justify-content: space-between;
+   display: flex;
+   
+  
+ }
+ .last-part .text{
+    
+   /* margin: 100px 0px 0px 190px; */
+}
+table{
+   padding: 5px;
+   margin-left: 190px;
+   width: 800px;
+   height: 130px;
+   margin-top: 70px;
+}
+table td a{
+   /* color: rgba(0, 0, 0, 0.409); */
+   text-decoration: none;
+   color: #737373;
+}
+table td a:hover{
+   text-decoration: underline;
+   color: #737373;
+}
+.footer-part .drop-button select{
+   margin-left: 190px;
+   margin-top: 20px;
+   width: 150px;
+   height: 50px;
+   background-color: rgba(0, 0, 0, 0.511);
+   color: #737373;
+   font-size: 15px;
+   font-family: sans-serif;
+}
+.last-text{
+   margin-left: 190px;
+   margin-top: 20px;
+}
+.last-part{
+   margin-top:5px ;
+   width: 102%;
+   height: 400px;
+   margin-left: -10px;
+   /* margin-right: -70px; */
+   background-color: black;
+   color: #737373;
+   font-family: sans-serif;
+   
+} 
+.last-part .text{
+   position: relative;
+   top: 60px;
+   left: 190px;
+   /* margin: 0px 0px 0px 190px; */
+}
+ 
